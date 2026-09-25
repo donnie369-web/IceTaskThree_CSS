@@ -1,0 +1,161 @@
+/* =========================================
+   ELEMENT SELECTOR
+   Styles the entire webpage
+   ========================================= */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =========================================
+   ID SELECTOR
+   Styles the header using the main-header ID
+   ========================================= */
+
+#main-header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+/* =========================================
+   GROUPING SELECTOR
+   Applies the same styling to h1 and h2
+   ========================================= */
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   CLASS SELECTOR
+   Styles the course section
+   ========================================= */
+
+.course-section {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+
+/* =========================================
+   CLASS SELECTOR
+   Styles the course cards
+   ========================================= */
+
+.course-card {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================================
+   CLASS SELECTOR
+   Styles the featured course differently
+   ========================================= */
+
+.featured {
+    background-color: #e8f1ff;
+    border: 2px solid #1e3a5f;
+}
+
+
+/* =========================================
+   DESCENDANT SELECTOR
+   Styles paragraphs inside course cards
+   ========================================= */
+
+.course-card p {
+    line-height: 1.6;
+    color: #555555;
+}
+
+
+/* =========================================
+   DESCENDANT SELECTOR
+   Styles links inside course cards
+   ========================================= */
+
+.course-card a {
+    color: #1e3a5f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   PSEUDO-CLASS
+   Changes the link when the mouse hovers over it
+   ========================================= */
+
+.course-card a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   CONTACT SECTION
+   ========================================= */
+
+.contact-section {
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 40px auto;
+}
+
+
+/* =========================================
+   CLASS SELECTOR
+   Styles the Contact Us button
+   ========================================= */
+
+.contact-button {
+    background-color: #1e3a5f;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* =========================================
+   PSEUDO-CLASS
+   Changes the button when the mouse hovers over it
+   ========================================= */
+
+.contact-button:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+
+/* =========================================
+   ELEMENT SELECTOR
+   Styles the footer
+   ========================================= */
+
+footer {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
